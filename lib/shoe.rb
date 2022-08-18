@@ -9,7 +9,7 @@ class Shoe
   end
 
   def cobble
-    @condition = "new"
+    self.condition = "new"
     puts "Your shoe is as good as new!"
 
   end
@@ -29,3 +29,6 @@ puts shoe.size
 puts shoe.material
 puts shoe.condition
 shoe.cobble
+
+
+puts shoe.condition
